@@ -1,7 +1,7 @@
 {{<layout}}
 
 {{$pageTitle}}
-	GOV.UK prototyping kit
+	Bulk transactions for Fleets
 {{/pageTitle}}
 
 {{$content}}
@@ -9,11 +9,11 @@
 <main id="content" role="main">
 
 
-	<h2 class="heading-large">EVL reference number variations</h2>
+	<h2 class="heading-large">Commercial services : Bulk licensing, etc</h2>
 
-	<p>What: Trying to reduce the error rate, and subsequent case work to fix, of users confused by and entering the incorrect reference number when trying to tax their vehicle.</p>
+	<p>What: Using the fleet management (View Vehicle Record for Fleets) as a starting point for transactional services for bulk users.</p>
 
-	<p>How: Looking at alternative methods to direct the user to find and enter a correct reference number, with only genuinely *new* new keepers using the V2C/2 supplement.</p>
+	<p>How: Looking at minimal re-invention and addition to enhance the fleet view for bulk VED, bulk SORN, bulk dispose, bulk request V5C, etc.</p>
 
 	<ol class="list-number">
 		<li>
@@ -22,45 +22,11 @@
 		</li>
 
 		<li>
-			<a href="/examples/elements/evl-0">Radio button chooser</a><br />
-			This option lets users pick one, and enter the number for that reference number type.
+			<a href="/examples/elements/view">Default view, all vehicles</a><br />
+			Once authenticated, user has an overview of the fleet.
 		</li>
-		<li>
-			<a href="/examples/elements/evl-1">Radio button chooser, fixed bottom field position</a><br />
-			Instead of the field and the 'where to find' element moving around under each radio button, this option always reveals the field at the bottom of the list of radio buttons.
-		</li>
-		<li>
-			<a href="/examples/elements/evl-2">Radio button chooser, default open for V11</a><br />
-			This is the same as the first, but the default state has the V11 option selected, and the field for entering that visible.
-		</li>
-		<li>
-			<a href="/examples/elements/evl-3">2 step process: select first, then enter ref number</a><br />
-			This splits out the choosing the reference number type and entering it into two separate pages/steps.
-		</li>
+		
 
-		<li>
-			<a href="/examples/elements/evl-3b">2 step process: select first, then enter ref number + expanded single help section</a><br />
-			This has an expanded, single 'Where to find...' expanding section, rather than one for each, and is before the following screen where the number is entered.
-		</li>
-
-		<li>
-			<a href="/examples/elements/evl-4">Form images: select first, then enter ref number</a><br />
-			This one uses the example images of each form, shown in three columns - the V11 (preferred) had the green continue button, the other two use a text link.
-		</li>
-
-		<li>
-			<a href="/examples/elements/evl-5">Form images: select first, then enter ref number</a><br />
-			Variation, with the illustration + the radio button in rows.
-		</li>
-
-		<li>
-			<a href="/examples/elements/evl-5a">Form images: select first, then enter ref number</a><br />
-			Slight size difference, fits the button label on one line
-		</li>
-		<li>
-			<a href="/examples/elements/evl-6">Form images: includes the image inside the large radio button area.</a><br />
-			Big and chunky buttons to hit
-		</li>
 	</ol>
 
 
@@ -99,14 +65,9 @@
 
 	<ul class="list-bullet">
 		<li>
-			Mocking up additional pages in flow: vehicle details, 6/12 months picker, pay...
+			Mocking up basic vehicle list pages from VVR Fleets 
 		</li>
-		<li>
-			Automatically putting the field revealed by the radio button into focus (gold border, user can type immediately)
-		</li>
-		<li>
-			<s>Trying a three column (vertical split) to the three options to display the diagram as standard rather than hidden</s>
-		</li>
+		
 	</ul>
 
 
