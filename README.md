@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Express prototyping tool
 
 Prototyping tool built in [Express](http://expressjs.com/).
@@ -64,3 +65,7 @@ Guides for getting set up and how to work with the prototyping application are a
 
 This project is built on top of Express, the idea is that it is straightforward to create simple static pages out of the box. However, you're not limited to that - more dynamic sites can be built with more understanding of Express. Here's a good [Express tutorial.](http://code.tutsplus.com/tutorials/introduction-to-express--net-33367)
 
+=======
+# bulk
+for BULK transactions @ DVLA
+>>>>>>> e74828bcfaeea28aedbbd2c4e14e446da111f111
